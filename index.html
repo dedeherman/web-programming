@@ -2,23 +2,33 @@
 <html lang="en">
 
 <head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Contoh internal CSS</title>
-  <!-- penulisan css dalam tag head -->
-  <style type="text/css">
-    input[type=text] {
-      background-color: thistle;
-      color: black;
-      padding: 10px;
-      border: 1px solid rgb(14, 15, 15);
-    }
-  </style>
-  <!-- end penulisan css dalam tag head -->
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contoh internal CSS</title>
+    <!-- penulisan css dalam tag head -->
+    <style type="text/css">
+        <style type="text/css">p {
+            font-family: serif;
+            line-height: 1.75em;
+            font-size: 18px;
+        }
+        
+        h2 {
+            font-family: sans;
+            color: rgb(224, 70, 70);
+        }
+    </style>
+
+    input[type=text] { background-color: thistle; color: black; padding: 10px; border: 1px solid rgb(14, 15, 15); }
+    </style>
+    <!-- end penulisan css dalam tag head -->
 </head>
 
 <body>
-  <input type="text" placeholder="masukkan username....">
+    <h2>Selamat Datang!</h2>
+    <p>Selamat Berbelanja</p>
+
+    <input type="text" placeholder="masukkan username....">
 </body>
 
 </html>
